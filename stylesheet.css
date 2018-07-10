@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body{
+  background-image: url(images/flower.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+h1 {
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+  color: #AD445E;
+  text-align: center;
+}
+
+h2{
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+  color: #AD445E;
+}
+
+.title {
+  padding-top: 40vh;
+  text-align: left;
+}
+
+
+/* List */
+.item{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    color: #F0A2AE;
+}
+.item:hover{
+  background-image: url(http://dl.glitter-graphics.com/pub/707/707566g91mlkt7sm.gif);
+  color: #DC858E;
+}
+
+.space{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 20vw;
+}
+
+/* Nav Bar */
+
+.containter{
+  width: 100%;
+  border-bottom: 3px solid #F0A2AE;
+    border-top: 3px solid #F0A2AE;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 35vw;
+    overflow: hidden;
+     width: 100%;
+
+}
+
+li {
+    float: left;
+    border-right: 3px solid #F0A2AE;
+
+}
+
+li a {
+    display: block;
+    color: #F0A2AE;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+
+li a:hover:not(.active) {
+    background-color: #F15E82;
+}
+
+li:last-child {
+    border-right: none;
+}
+.active {
+    background-color: #AD445E;
+}
